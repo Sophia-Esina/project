@@ -7,10 +7,6 @@ function App() {
 	const [list, setList] = useState([]);
 	const [error, setError] = useState('');
 	const [isValueVaild, setIsValueVaild] = useState(false);
-	// const newDate = new Date();
-	// const time =
-	// 	newDate.getHours() + ':' + newDate.getMinutes() + ':' + newDate.getSeconds();
-	// const date = new Date().toISOString().slice(0, 10) + '' + time;
 
 	const onInputButtonClick = () => {
 		const promptValue = prompt('Введите значение:');
